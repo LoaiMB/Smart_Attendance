@@ -10,7 +10,7 @@ Welcome to the Smart Attendance project! This project leverages computer vision 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features
+- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Getting Started](#getting-started)
