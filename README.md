@@ -10,7 +10,7 @@ Welcome to the Smart Attendance project! This project leverages computer vision 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
+- [Features](#features) 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Getting Started](#getting-started)
@@ -39,7 +39,7 @@ Modernizing attendance tracking, this project integrates AI and computer vision 
 ## Installation
 
 1. Clone this repository: `git clone https://github.com/LoaiMB/Smart_Attendance.git`
-2. Navigate to the project directory: `cd face-smart-attendance`
+2. Navigate to the project directory: `cd Smart_Attendance`
 3. Install the required dependencies: `pip install -r requirements.txt`
 
 ## Usage
