@@ -4,7 +4,7 @@ import mediapipe as mp
 
 # Parameters
 data_dir = 'data'
-employee_names = ['Loai','Elon']  # Add more names as needed
+employee_names = ['person1','person2']  # Add more names as needed
 
 # Create directories for data collection
 if not os.path.exists(data_dir):
