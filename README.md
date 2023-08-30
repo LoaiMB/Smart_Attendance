@@ -79,6 +79,6 @@ This project is licensed under the (LICENSE).
 
 Feel free to adapt and expand upon this template to accurately represent your project. Ensure that you provide clear instructions, detailed explanations, and any additional information that users might find helpful. Good luck with your Face Smart Attendance project!
 
-[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue.svg)](www.linkedin.com/in/loai-benzaghta-42003018b)
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue.svg)](https://www.linkedin.com/in/loai-benzaghta-42003018b/)
 
 
