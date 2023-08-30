@@ -1,13 +1,18 @@
-# Face Smart Attendance Project
+# Smart Attendance Project
 
-![Project Logo](/path/to/logo.png) <!-- Insert your project logo if available -->
+<div align="center">
+  <img src="rsz_cover.jpg" alt="Project Logo">
+</div> 
+<!-- Insert your project logo if available -->
 
-Welcome to the Face Smart Attendance project! This project leverages computer vision techniques, specifically face recognition, to create a smart attendance system. The system employs a two-step approach: face detection using the MediaPipe library and face recognition using the Facenet model from the DeepFace library.
+Welcome to the Smart Attendance project! This project leverages computer vision techniques, specifically face recognition, to create a smart attendance system. The system employs a two-step approach: face detection using the MediaPipe library and face recognition using the Facenet model from the DeepFace library.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
+- [Features](#features
+- [Installation](#installation)
+- [Usage](#usage)
 - [Getting Started](#getting-started)
   - [Data Collection](#data-collection)
   - [Model Training](#model-training)
@@ -31,6 +36,18 @@ Modernizing attendance tracking, this project integrates AI and computer vision 
 - **Inference**: Inference script for real-time attendance tracking using the trained model.
 - **Attendance with GUI**: Utilize the `attendance_gui.py` script to display live attendance tracking with a simple GUI.
 
+## Installation
+
+1. Clone this repository: `git clone https://github.com/LoaiMB/Smart_Attendance.git`
+2. Navigate to the project directory: `cd face-smart-attendance`
+3. Install the required dependencies: `pip install -r requirements.txt`
+
+## Usage
+
+1. Follow the steps in the [Data Collection](#data-collection) section to collect training data.
+2. Run the [Model Training](#model-training) script to train the Facenet model.
+3. Execute the [Inference](#inference) script to perform real-time attendance tracking.
+4. To use the GUI attendance tracking, run the `attendance_gui.py` script.
 ## Getting Started
 
 ### Data Collection
@@ -49,18 +66,6 @@ The `inference.py` script is designed for real-time attendance tracking. It uses
 
 For a more interactive experience, the `attendance_gui.py` script provides a simple GUI to display real-time attendance tracking. The script utilizes the trained face recognition model to identify attendees and displays the results in a user-friendly interface.
 
-## Installation
-
-1. Clone this repository: `git clone https://github.com/your-username/face-smart-attendance.git`
-2. Navigate to the project directory: `cd face-smart-attendance`
-3. Install the required dependencies: `pip install -r requirements.txt`
-
-## Usage
-
-1. Follow the steps in the [Data Collection](#data-collection) section to collect training data.
-2. Run the [Model Training](#model-training) script to train the Facenet model.
-3. Execute the [Inference](#inference) script to perform real-time attendance tracking.
-4. To use the GUI attendance tracking, run the `attendance_gui.py` script.
 
 ## Contributing
 
