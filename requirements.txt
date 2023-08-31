@@ -1,6 +1,5 @@
 mediapipe
 deepface
-pickle5
 numpy>=1.14.0
 pandas>=0.23.4
 gdown>=3.10.1
