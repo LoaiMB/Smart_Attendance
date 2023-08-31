@@ -12,6 +12,7 @@ employee_embeddings = {}
 #model = DeepFace.build_model("Facenet")
 
 # Iterate through the employee image folders
+print('Traning Started ... %')
 for employee_name in os.listdir(employee_images_path):
     employee_folder = os.path.join(employee_images_path, employee_name)
     embeddings = []
@@ -28,3 +29,4 @@ for person, embeddings_list in employee_embeddings.items():
 # Save the employee embeddings dictionary to a file
 with open("employee_embeddings.pkl", "wb") as f:
     pickle.dump(transformed_data, f)
+print('Traning Finished')
