@@ -22,6 +22,7 @@ camera = cv2.VideoCapture(0)
 # Create a Tkinter window
 window = tk.Tk()
 window.title("Smart Attendance System")
+window.bind('<q>', lambda e: window.destroy())
 
 # Create a label to display attendance status
 attendance_label = Label(window, text="", font=("Helvetica", 16))
@@ -46,7 +47,7 @@ attended_history_label.pack(pady=10)
 # Create a label to display attended history
 attended_history = Label(window, text="", font=("Helvetica", 14))
 attended_history.pack()
-
+print("Press 'q' to Quit")
 while True:
     ret, frame = camera.read()
 
