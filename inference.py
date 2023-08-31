@@ -53,7 +53,7 @@ while True:
                     except:
                         pass
                     if distance < min_distance:
-                        #min_distance = distance
+                        min_distance = distance
                         recognized_employee = employee_name
             
             # Draw bounding box and recognized name on the frame
