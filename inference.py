@@ -16,7 +16,7 @@ face_detection = mp_face_detection.FaceDetection(min_detection_confidence=0.5)
 
 # Initialize the live camera
 camera = cv2.VideoCapture(0)
-
+print("Press 'q' to Quit")
 while True:
     ret, frame = camera.read()
     
