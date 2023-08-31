@@ -50,6 +50,7 @@ Modernizing attendance tracking, this project integrates AI and computer vision 
 2. Run the [Model Training](#model-training) script to train the Facenet model.
 3. Execute the [Inference](#inference) script to perform real-time attendance tracking.
 4. To use the GUI attendance tracking, run the `attendance_gui.py` script.
+5. When finshed make sure to deactivate the venv by typing `deactivate` in the command line
 ## Getting Started
 
 ### Data Collection
