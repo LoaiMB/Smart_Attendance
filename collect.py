@@ -4,7 +4,7 @@ import mediapipe as mp
 
 # Parameters
 data_dir = 'data'
-employee_names = ['person1','person2']  # Add more names as needed
+employee_names = ['person1']  # Add more names as needed
 
 # Create directories for data collection
 if not os.path.exists(data_dir):
@@ -58,6 +58,7 @@ for name in employee_names:
                     # Save the captured image
                     image_path = os.path.join(data_dir, name, f'{name}_{len(os.listdir(os.path.join(data_dir, name))) + 1}.jpg')
                     cv2.imwrite(image_path, resized_face)
+                    print("Image Saved") 
 
         key = cv2.waitKey(1) & 0xFF
         if key == ord('q'):
