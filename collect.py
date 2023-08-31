@@ -40,8 +40,7 @@ for name in employee_names:
                 x, y, w, h = int(bboxC.xmin * iw), int(bboxC.ymin * ih), int(bboxC.width * iw), int(bboxC.height * ih)
 
                 # Draw bounding box on the detected face
-                #mp_drawing.draw_detection(frame, detection)
-
+                cv2.rectangle(frame, (x-40, y-40), (x + w + 5, y + h + 5), (0, 0, 255), 2)
                 # Display the current frame
                 cv2.imshow('Data Collection', frame)
 
